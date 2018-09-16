@@ -1,0 +1,22 @@
+<div class="article-summary">
+<a href="{{ .Permalink }}">
+
+   <h2 class="article-title-list">{{ .Title}}</h2>
+   
+   <h3 class="posted-date-list">{{ .Date.Format "January 2, 2006" }}</h3>
+
+   <div class="body">
+      {{ if .Summary }}{{ .Summary }} 
+          {{ if .Truncated }}
+            <a href="{{ .RelPermalink }}">[...] Read More...</a>
+          {{ end }}
+      {{else}}Oops, this article has no content yet!
+      {{end}}
+   </div>
+
+  	<div class="read-time-list">
+   		<img class="coffee-list" src="/img/coffee-cup-black.png"> Reading time: ~ {{ .ReadingTime }} minute(s)
+	</div>
+
+</a>
+</div>

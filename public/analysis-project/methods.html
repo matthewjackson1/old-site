@@ -1,0 +1,471 @@
+
+
+<!DOCTYPE HTML>
+<head>
+<!--PAGE TITLE-->
+<title>Methods - Data Analysis Project - Matthew Jackson</title>
+
+<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+
+<script src="js/imageresizer.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	var s = $("#Bsidebar");
+	var pos = s.position();
+	var s2 = $("#mainrightbar");
+	var pos2 = s2.position();					   
+	$(window).scroll(function() {
+		var windowpos = $(window).scrollTop();
+		if (windowpos >= pos.top) {
+			s.addClass("stick");
+		} else {
+			s.removeClass("stick");	
+		}
+	
+		var windowpos = $(window).scrollTop();
+		if (windowpos >= pos.top) {
+			s2.addClass("stick2");
+		} else {	
+			s2.removeClass("stick2");
+		}
+	});
+
+});
+</script>
+
+</head>
+
+
+
+<body>
+
+
+
+
+<div id="topbar">
+</div>
+
+<div id="Abackground">
+	<div id="Agradient">
+		<div id="Acontainer">
+			<div id="Aleftholder">
+			<img src="images/nitrlogo.png" id="nitrologo" />
+			</div><!--Aleftholder-->
+			<div id="Arightholder">
+				<div id="Arightholdertop">
+					<div id="Arightholdertopleft">
+					A Random Forest-Based Approach to the Discovery of Nitrogen Storage Proteins in <i>M. smegmatis</i>
+					</div><!--Arightholdertopleft-->
+					<div id="Arightholdertopright">
+						<div id="Aauthorlogo">
+						<i class="icon-user"></i>
+						</div><!--Aauthorlogo-->
+						<div id="Aauthorname">
+						Matthew Jackson
+						</div><!--Aauthorname-->
+						<div id="Adataproj">
+						DATA ANALYSIS PROJECT
+						</div><!--Adataproj-->
+					</div><!--Arightholdertopright-->
+				</div><!--Arightholdertop-->
+				<div id="Arightholderbottom">
+					<img src="images/ribbon.png" />
+				</div><!--Arightholderbottom-->
+			</div><!--Arightholder-->
+	
+		</div><!--Agradient-->
+	</div><!--Acontainer-->
+</div><!--Abackground-->
+
+<div id="Bbackground">
+	<div id="Bcontainer">
+		<div id="Bsidebar">
+			<div id="sidebarspacer">
+			</div><!--sidebarspacer-->
+			
+			
+
+			
+			<!--REAL MENU-->
+			
+			<a href="index.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-home"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Abstract
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+			<a href="summary.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-globe"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Summary
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+			<a href="introduction.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-info-sign"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Introduction
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+			
+			<a href="results_and_discussion.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-bar-chart"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText" style="padding-top:7px;font-size:16px;line-height:100%;">
+				Results and Discussion
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+
+			
+			<a href="conclusion.html"><div class="inactiveEntry">
+				<div class="inactiveIcon" style="padding-left:12px; width:23px;">
+				<i class="icon-lightbulb"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Conclusion
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+						<a href="methods.html"><div class="activeEntry" id="entry5blue">
+				<div class="activeIcon">
+				<i class="icon-beaker"></i>
+				</div><!--activeIcon-->
+				<div class="activeText">
+				Methods
+				</div><!--activeText-->
+				<div class ="activeArrow">
+				</div><!--activeArrow-->
+			</div><!--activeEntry--></a>
+			
+
+			
+			<a href="references.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-book"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				References
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+
+
+			<a href="acknowledgements.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-group"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText" style="font-size:14px;">
+				Acknowledgements
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+						
+			<a href="supplementary_info.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-expand-alt" style="padding-left:7px; width:28px;"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText" style="padding-top:7px;font-size:16px;line-height:100%;">
+				Supplementary Information
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+		
+		</div><!--Bsidebar-->
+		
+		
+		
+<!--MAIN CONTENT OF PAGE-->		
+		<div id="maincontent">
+			<div id="maincontentinner">
+				<div id="mainleftbar">
+				<div class="heading">
+				Methods
+				</div><!--heading-->
+
+<!--PARAGRAPH WITH HEADER-->	
+
+<p>
+<h1 class="subblue" id="1">1. Datasets</h1>
+<div class="subline"></div><!--subline-->
+<h1 class="subblue" id="1a">a) Positive and negative sets</h1>
+To build a classifier, known storage proteins were used as a positive set for a supervised machine learning algorithm (random forest), and known non-storage proteins were used as the negative set<a class="figref" href="#f16"> (Figure 16)</a>.
+</p>
+
+
+<!--FIGURE BOX-->
+<div class="figureholder" id="f16">
+	<div class="figuretitle">
+		<div class="Titular">Figure 16: 
+		</div><!--Titular-->
+		<div class="TitleText">
+		How the positive and negative datasets were assembled
+		</div><!--TitleText-->
+		<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--figuretitle-->
+	<!--IMAGE-->
+	<img src="images/Figures/datasets.png" class="figure" id="dat" />
+	
+<b>Positive Set)</b>
+UniProtKB search for <a href="http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0045735" class="weblink" target="_blank">GO:0045735</a> ("nutrient storage reservoir") yielded 6848 hits; the 431 manually reviewed sequences were selected from these to eliminate spurious automatic annotations. The reviewed sequences were filtered to remove redundant fragments leaving a positive set of 380 proteins from 80 species, including: 37 plant species, a protist, 2 bacteria and 30 animal species (full species list <a class="supref" href="supplementary_info.html"> Supp. info table 1</a>). 
+<br />
+<b>Negative Set)</b>
+NCBI taxonomy IDs for each of the 80 species in the positive set were used to extract relevant entries from the complete uniprot GOA gene association dataset.  From these lists, equal proportions were randomly selected from each of the species to make up a negative set of 380 proteins. To ensure no overlap with the positive set, <a href="http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0045735" class="weblink" target="_blank">GO:0045735</a> was excluded along with its ancestor, the GO molecular function root term <a href="http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0003674" class="weblink" target="_blank">GO:0003674</a>; there were no child terms to exclude. 
+
+
+		<div class="imagecontrolbox">
+			<span class="imgcontrol" onclick="enlargeImg('dat','500px')"><i class="icon-plus-sign" style="font-size:16px;"></i> Enlarge</span>
+			<span class="imgcontrol" onclick="reduceImg('dat','300px')"><i class="icon-minus-sign" style="font-size:16px;"></i> Reduce</span>
+			<a class="imgcontrol" href="images/Figures/datasets.png" target="_blank"><i class="icon-external-link-sign" style="font-size:16px;"></i> Supersize</a>
+		</div><!--imagecontrolbox-->	
+	<div class="figspacer2">
+	</div><!--figspacer2-->
+</div><!--figrueholder-->
+<!--/FIGURE BOX-->
+
+<p>
+<h1 class="subblue" id="1b">b) Training and test sets (full model)</h1>
+The positive and negative sets were divided up randomly in half into training and testing sets for the random forest model, described in<a class="figref" href="#f17"> (Figure 17)</a>.
+</p>
+
+<!--FIGURE BOX-->
+<div class="figureholder id="f17"">
+	<div class="figuretitle">
+		<div class="Titular">Figure 17: 
+		</div><!--Titular-->
+		<div class="TitleText">
+		Generation of training and test sets for the Random Forest classifier 
+		</div><!--TitleText-->
+		<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--figuretitle-->
+	<!--IMAGE-->
+	<img src="images/Figures/traintest.png" class="figure" id="trt" />
+	
+The positive and negative set protein sequences were both randomly split into 2 equal groups of 190 proteins. Each of the positive groups was randomly paired with one of the negative groups to give a total of 380 proteins in the training and test sets.
+
+		<div class="imagecontrolbox">
+			<span class="imgcontrol" onclick="enlargeImg('trt','500px')"><i class="icon-plus-sign" style="font-size:16px;"></i> Enlarge</span>
+			<span class="imgcontrol" onclick="reduceImg('trt','300px')"><i class="icon-minus-sign" style="font-size:16px;"></i> Reduce</span>
+			<a class="imgcontrol" href="images/Figures/traintest.png" target="_blank"><i class="icon-external-link-sign" style="font-size:16px;"></i> Supersize</a>
+		</div><!--imagecontrolbox-->	
+	<div class="figspacer2">
+	</div><!--figspacer2-->
+</div><!--figrueholder-->
+<!--/FIGURE BOX-->
+
+<p>
+<h1 class="subblue" id="1c">c) Training and test sets (leave-one-family-out)</h1>
+Different training and test sets were used in the leave-one-family out evaluation of the classifier as explained in<a class="figref" href="#f18"> (Figure 18)</a>. 
+</p>
+<!--FIGURE BOX-->
+<div class="figureholder" id="f18">
+	<div class="figuretitle">
+		<div class="Titular">Figure 18: 
+		</div><!--Titular-->
+		<div class="TitleText">
+		Generation of training and test sets for leave-one-family-out random forest models
+		</div><!--TitleText-->
+		<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--figuretitle-->
+	<!--IMAGE-->
+	<img src="images/Figures/traintestfamilies.png" class="figure" id="ttf" />
+
+<b>Training Set)</b>
+Each of the protein family groups identified in the protein similarity network (see section X below) were removed in turn from the positive set of 380 proteins, and 190 entries were randomly selected from the remaining pool. These were paired with 190 random entries from the negative set.
+<br />
+<b>Test Set)</b>
+The family members that were excluded from the training set are used as the positives in the test set, and combined with the other 190 proteins of the negative set not used in the training set.
+ 
+
+		<div class="imagecontrolbox">
+			<span class="imgcontrol" onclick="enlargeImg('ttf','500px')"><i class="icon-plus-sign" style="font-size:16px;"></i> Enlarge</span>
+			<span class="imgcontrol" onclick="reduceImg('ttf','300px')"><i class="icon-minus-sign" style="font-size:16px;"></i> Reduce</span>
+			<a class="imgcontrol" href="images/Figures/traintestfamilies.png" target="_blank"><i class="icon-external-link-sign" style="font-size:16px;"></i> Supersize</a>
+		</div><!--imagecontrolbox-->	
+	<div class="figspacer2">
+	</div><!--figspacer2-->
+</div><!--figrueholder-->
+<!--/FIGURE BOX-->
+
+
+
+<p>
+<h1 class="subblue" id="1d">d) Large -omics datasets </h1>
+<ul>
+<li><a href="http://www.ebi.ac.uk/GOA/downloads" class="methlink" target="_blank">Gene Ontology Annotation Gene Association file for UniprotKB <i class="icon-external-link-sign"></i></a></li>
+<li><a href="http://www.tbdb.org" class="methlink" target="_blank"><i>M.smegmatis</i> Proteome (6716 entries) - tbdb <i class="icon-external-link-sign" ></i></a></li>
+<li><a href="http://plants.ensembl.org/Musa_acuminata/Info/Index/" class="methlink" target="_blank"><i>M.acuminata</i> Proteome (36520 entries)  - Ensembl <i class="icon-external-link-sign" ></i></a></li>
+<li><a href="http://www.ensembl.org/Ornithorhynchus_anatinus/Info/Index/" class="methlink" target="_blank"><i>O.anatinus</i> Proteome (18162 entries) - Ensembl <i class="icon-external-link-sign" ></i></a></li>
+</ul>
+</p>
+
+<p>
+<h1 class="subblue" id="2">2. Protein features analysed</h1>
+<div class="subline"></div><!--subline-->
+
+For each protein sequence, 38 features were calculated, from basic features of the protein, such as amino acid composition and length to physicochemical properties e.g. hydrophobicity. Measures of the metabolic cost of producing a particular protein were also included (e.g. in terms of high energy P bonds)<a class="tabref" href="#t3"> (Table 3)</a>. 
+
+</p>
+<div class="tableholder" id="t3">
+	<div class="tableheaderholder">
+		<div class="tableno">
+		Table 3:
+		</div><!--tableno-->
+		<div class="tabletitle">
+		Sequence-derived protein features used in the investigation and their sources
+		</div><!--tabletitle-->
+					<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--tableheaderholder-->
+			
+	<div class="tableproper">
+		
+		<table class="general_tab" id="methodtable">
+			<tr>
+				<th>Protein Feature</th>
+				<th width="40%">Program Used</th>
+			</tr>
+			<tr>
+				<td>Number and percentage of disordered residues</td>
+				<td>IUPred<a class="ref" href="references.html#9"> [9]</a></td>
+			</tr>
+			<tr>
+				<td>Percentage of low complexity regions</td>
+				<td>Seg <a class="ref" href="references.html#10"> [10]</a></td>
+			</tr>
+			<tr>
+				<td>Amino acid composition percentages</td>
+				<td rowspan=8>ProtParam<a class="ref" href="references.html#11"> [11]</a> </td>
+			</tr>
+			<tr>
+				<td>Aromaticity</td>
+			</tr>
+						<tr>
+				<td>Instability Index</td>
+			</tr>
+						<tr>
+				<td>Flexibility Average</td>
+			</tr>
+						<tr>
+				<td>Isoelectric Point</td>
+			</tr>
+						<tr>
+				<td>Secondary structure feature percentages (sheet, turn, helix)</td>
+			</tr>
+						<tr>
+				<td>Hydrophobicity</td>
+			</tr>
+						<tr>
+				<td>Molecular weight of protein and average weight per residue</td>
+			</tr>
+			<tr>
+				<td>Average H-bond and P-bond costs to produce each residue and average N content per residue</td>
+				<td rowspan=2 id="rowspan2">Metabolic costs for amino acid production in bacteria from literature <a class="ref" href="references.html#12"> [12]</a> (scoring matrices given in<a class="supref" href="supplementary_info.html"> Supp. info Table 5</a>)</td>
+			</tr>
+						<tr>
+				<td>Average nitrogen content per residue</td>
+			</tr>
+			
+		</table>
+		
+		</div><!--tableproper-->
+		<div class="tablecaption">
+		Details of how each feature is calculated from sequence information and what they mean in more detail are included in <a class="supref" href="supplementary_info.html"> Supp. info table 4</a>.
+		</div><!--tablecaption-->
+	</div><!--tableholder-->
+
+
+<p>
+<h1 class="subblue" id="3">3. Protein feature significance testing</h1>
+<div class="subline"></div><!--subline-->
+The positive and negative datasets were compared using R. The Kolmogorov-Smirnov test examines whether the shape of the distributions differs between two samples, and was run using <span class="code">ks.test</span>. The Mann-Whitney U test examines the location of the average ranks (a non-parametric version of the t-test which compares means) using <span class="code">Wilcox.test</span>. Adjusted p-values, to account for multiple testing, were calculated using <span class="code">p.adjust</span> with the Holm method.
+</p>
+
+<p>
+<h1 class="subblue" id="4">4. Protein similarity network</h1>
+<div class="subline"></div><!--subline-->
+The positive set protein sequences were made into a blast database, and an all against all <span class="code">blastp</span> run was carried out. To select meaningful similarities for display on the similarity network, the blast hits were filtered for Identity percentage (set at 30%, near the lower limit of BLAST reliability<a class="ref" href="references.html#13"> [13]</a>) and also for coverage of the hit, which was set at 50% to reduce the likelihood of domain-only hits. 
+</p>
+<p>
+The resulting set of protein pairwise connections was fed into <span class="code">NetworkX</span>. The <span class="code">k_clique_communities</span> tools were used to isolate highly interconnected groups of proteins.
+</p>
+
+
+<p>
+<h1 class="subblue" id="5">5. Principal component analysis</h1>
+<div class="subline"></div><!--subline-->
+Positive and negative set data for the significant protein features were compared using the R's <span class="code">princomp</span> function, and the first 2 principal components plotted against each other.
+</p>
+
+
+<p>
+<h1 class="subblue" id="6">6. Random Forest classifier creation</h1>
+<div class="subline"></div><!--subline-->
+Random forests are an ensemble machine learning technique for classification and regression based on the building of many classification trees and counting the number of votes for each classification category<a class="ref" href="references.html#14"> [14]</a>. They are "unexcelled in accuracy among current algorithms" and they have many advantages including speed and immunity from overfitting<a class="ref" href="references.html#15"> [15,16]</a>.  We used the <span class="code">randomForest</span> package in R, running 5000 trees for each model<a class="ref" href="references.html#16"> [17]</a>. To ensure repeatability the <span class="code">Set.seed()</span> function was used wherever random numbers were generated.
+</p>
+
+<p>
+<h1 class="subblue" id="7">7. Evaluating the Random Forest models</h1>
+<div class="subline"></div><!--subline-->
+
+</p><p>
+The <span class="code">ROCR</span> package for R was used to perform the evaluation calculations for ROC and Precision-Recall curves<a class="ref" href="references.html#17"> [17]</a>. 
+</p>
+
+<DIV CLASS="subline"></div>
+
+			</div><!--mainleftbar-->
+			
+			<!--NAVIGATION MENU RIGHT-->
+			<div id="mainrightbar">
+			<span class="NavBarTitle"><i class="icon-location-arrow" style="font-size:16px;"></i> NAVIGATION</span>
+			<ol class="navbarlist" id="methodsol">
+			<li><a href="#1">Datasets</a></li>
+				<ol type="a">
+					<li><a href="#1a">Positive and negative sets</a></li>
+					<li><a href="#1b">Training and test (full)</a></li>
+					<li><a href="#1c">Training and test (leave-one-family-out)</a></li>
+					<li><a href="#1d">Large datasets</a></li>
+				</ol>
+			<li><a href="#2">Protein features</a></li>
+			<li><a href="#3">Feature significance testing</a></li>
+			<li><a href="#4">Protein similarity network</a></li>
+			<li><a href="#5">PCA</a></li>
+			<li><a href="#6">Random Forest</a></li>
+			<li><a href="#7">Evaluating Random Forest</a></li>
+
+
+			</ol>
+			</div><!--mainrightbar-->
+			<!--END OF NAV MENU-->
+			
+			
+			
+			
+			</div><!--maincontentinner--> 
+		</div><!--maincontent-->
+	</div><!--Bcontainer-->
+</div><!--Bbackground-->
+
+	<div class="footerspacer">
+	</div><!--footerspacer-->
+

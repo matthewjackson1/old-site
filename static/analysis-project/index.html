@@ -1,0 +1,238 @@
+
+
+<!DOCTYPE HTML>
+<head>
+
+<title>Abstract - Data Analysis Project - Matthew Jackson</title>
+
+<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+</head>
+
+
+
+<body>
+<script type="text/javascript">
+$(document).ready(function() {
+	var s = $("#Bsidebar");
+	var pos = s.position();
+	var s2 = $("#mainrightbar");
+	var pos2 = s2.position();					   
+	$(window).scroll(function() {
+		var windowpos = $(window).scrollTop();
+		if (windowpos >= pos.top) {
+			s.addClass("stick");
+		} else {
+			s.removeClass("stick");	
+		}
+	
+		var windowpos = $(window).scrollTop();
+		if (windowpos >= pos.top) {
+			s2.addClass("stick2");
+		} else {	
+			s2.removeClass("stick2");
+		}
+	});
+
+});
+</script>
+<script type="text/javascript">
+
+function enlargeImg(ima, height, width) {
+	myImage = document.getElementById(ima);
+    	myImage.style.width = width;
+    	myImage.style.height = height;
+    myImage.style.cssFloat="none";
+    
+    	
+}
+
+function reduceImg(ima, height, width) {
+	myImage = document.getElementById(ima);
+    	myImage.style.width = width;
+    	myImage.style.height = height;
+    	myImage.style.cssFloat="left";
+}
+
+</script>
+
+
+<div id="topbar">
+</div>
+
+<div id="Abackground">
+	<div id="Agradient">
+		<div id="Acontainer">
+			<div id="Aleftholder">
+			<img src="images/nitrlogo.png" id="nitrologo" />
+			</div><!--Aleftholder-->
+			<div id="Arightholder">
+				<div id="Arightholdertop">
+					<div id="Arightholdertopleft">
+					A Random Forest-Based Approach to the Discovery of Nitrogen Storage Proteins in <i>M. smegmatis</i>
+					</div><!--Arightholdertopleft-->
+					<div id="Arightholdertopright">
+						<div id="Aauthorlogo">
+						<i class="icon-user"></i>
+						</div><!--Aauthorlogo-->
+						<div id="Aauthorname">
+						Matthew Jackson
+						</div><!--Aauthorname-->
+						<div id="Adataproj">
+						DATA ANALYSIS PROJECT
+						</div><!--Adataproj-->
+					</div><!--Arightholdertopright-->
+				</div><!--Arightholdertop-->
+				<div id="Arightholderbottom">
+					<img src="images/ribbon.png" />
+				</div><!--Arightholderbottom-->
+			</div><!--Arightholder-->
+	
+		</div><!--Agradient-->
+	</div><!--Acontainer-->
+</div><!--Abackground-->
+
+<div id="Bbackground">
+	<div id="Bcontainer">
+		<div id="Bsidebar">
+			<div id="sidebarspacer">
+			</div><!--sidebarspacer-->
+				<a href="index.html"><div class="activeEntry" id="entry1red">
+				<div class="activeIcon">
+				<i class="icon-home"></i>
+				</div><!--activeIcon-->
+				<div class="activeText">
+				Abstract
+				</div><!--activeText-->
+				<div class ="activeArrow">
+				
+				</div><!--activeArrow-->
+			</div><!--activeEntry--></a>
+			
+			<a href="summary.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-globe"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Summary
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+			<a href="introduction.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-info-sign"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Introduction
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+			
+			<a href="results_and_discussion.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-bar-chart"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText" style="padding-top:7px;font-size:16px;line-height:100%;">
+				Results and Discussion
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+			
+	
+			<a href="conclusion.html"><div class="inactiveEntry">
+				<div class="inactiveIcon" style="padding-left:12px; width:23px;">
+				<i class="icon-lightbulb"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Conclusion
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry-->
+
+			<a href="methods.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-beaker"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Methods
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+						
+	
+			
+			<a href="references.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-book"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				References
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+
+
+			<a href="acknowledgements.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-group"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText" style="font-size:14px;">
+				Acknowledgements
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+						
+			<a href="supplementary_info.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-expand-alt" style="padding-left:7px; width:28px;"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText" style="padding-top:7px;font-size:16px;line-height:100%;">
+				Supplementary Information
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+
+
+
+			
+			
+		
+		</div><!--Bsidebar-->
+		<div id="maincontent">
+			<div id="maincontentinner">
+				<div id="mainleftbar">
+				<div class="heading">
+				Abstract
+				</div><!--heading-->
+			
+
+<p>
+<h1 class="subred">Motivation</h1>
+Little is known about the bacterial response to nitrogen starvation. Recent experimental work suggests some bacteria (including <i>M.smegmatis</i>) may be storing nitrogen in times of plenty, as they can continue to grow after it is exhausted from the medium. One possibility is that nitrogen is being stored in the form of specialised proteins, and this is what we want to investigate.
+</p>
+
+<p>
+<h1 class="subred">Methods</h1>
+By using a random forest-based approach, we develop a classifier based on sequence-derived properties of known nitrogen storage proteins from across the domains of life. We statistically evaluate its performance and test it on several proteomes, including <i>M.smegmatis</i>, to try to identify putative storage protein candidates.
+</p>
+<p>
+<h1 class="subred">Results</h1>
+The classifier was 90% accurate at discriminating storage proteins and non-storage proteins, and is not biased to any particular families. It identified 7 candidates at a precision level of 99% in <i>M.smegmatis</i>, which are worthy of further investigation.
+</p>
+<p>
+<h1 class="subred">Conclusion</h1>
+The random forest approach is fast and highly effective at discriminating proteins based on sequence-based properties, and could be easily applied to similar investigations. Further work with the candidates identified in this project could help develop our understanding of nitrogen stress responses in bacteria. There are wider ramifications in the field of medicine where, if their existence is confirmed, bacterial nitrogen storage proteins could make potential antibiotic targets.
+</p><br /><br /><br />
+<div class="subline"></div><!--subline-->
+			</div><!--maincontentinner--> 
+		</div><!--maincontent-->
+	</div><!--Bcontainer-->
+</div><!--Bbackground-->
+	<div class="footerspacer">
+	</div><!--footerspacer-->
+
+

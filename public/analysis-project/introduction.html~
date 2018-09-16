@@ -1,0 +1,279 @@
+
+
+<!DOCTYPE HTML>
+<head>
+<!--PAGE TITLE-->
+<title>Introduction - Data Analysis Project - Matthew Jackson</title>
+
+<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<script language="JavaScript" src="js/imageresizer.js"></script>
+
+</head>
+
+
+
+<body>
+<script type="text/javascript">
+$(document).ready(function() {
+	var s = $("#Bsidebar");
+	var pos = s.position();
+	var s2 = $("#mainrightbar");
+	var pos2 = s2.position();					   
+	$(window).scroll(function() {
+		var windowpos = $(window).scrollTop();
+		if (windowpos >= pos.top) {
+			s.addClass("stick");
+		} else {
+			s.removeClass("stick");	
+		}
+	
+		var windowpos = $(window).scrollTop();
+		if (windowpos >= pos.top) {
+			s2.addClass("stick2");
+		} else {	
+			s2.removeClass("stick2");
+		}
+	});
+
+});
+</script>
+
+
+
+<div id="topbar">
+</div>
+
+<div id="Abackground">
+	<div id="Agradient">
+		<div id="Acontainer">
+			<div id="Aleftholder">
+			<img src="images/nitrlogo.png" id="nitrologo" />
+			</div><!--Aleftholder-->
+			<div id="Arightholder">
+				<div id="Arightholdertop">
+					<div id="Arightholdertopleft">
+					A Random Forest-Based Approach to the Discovery of Nitrogen Storage Proteins in <i>M. smegmatis</i>
+					</div><!--Arightholdertopleft-->
+					<div id="Arightholdertopright">
+						<div id="Aauthorlogo">
+						<i class="icon-user"></i>
+						</div><!--Aauthorlogo-->
+						<div id="Aauthorname">
+						Matthew Jackson
+						</div><!--Aauthorname-->
+						<div id="Adataproj">
+						DATA ANALYSIS PROJECT
+						</div><!--Adataproj-->
+					</div><!--Arightholdertopright-->
+				</div><!--Arightholdertop-->
+				<div id="Arightholderbottom">
+					<img src="images/ribbon.png" />
+				</div><!--Arightholderbottom-->
+			</div><!--Arightholder-->
+	
+		</div><!--Agradient-->
+	</div><!--Acontainer-->
+</div><!--Abackground-->
+
+<div id="Bbackground">
+	<div id="Bcontainer">
+		<div id="Bsidebar">
+			<div id="sidebarspacer">
+			</div><!--sidebarspacer-->
+			
+			<!--MENU-->
+			
+			<a href="index.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-home"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Abstract
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+			<a href="summary.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-globe"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Summary
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+
+			<a href="introduction.html"><div class="activeEntry" id="entry3pink">
+				<div class="activeIcon">
+				<i class="icon-info-sign"></i>
+				</div><!--activeIcon-->
+				<div class="activeText">
+				Introduction
+				</div><!--activeText-->
+				<div class ="activeArrow">
+				</div><!--activeArrow-->
+			</div><!--activeEntry--></a>
+			
+			
+			<a href="results_and_discussion.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-bar-chart"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText" style="padding-top:7px;font-size:16px;line-height:100%;">
+				Results and Discussion
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+			
+
+			<a href="conclusion.html"><div class="inactiveEntry">
+				<div class="inactiveIcon" style="padding-left:12px; width:23px;">
+				<i class="icon-lightbulb"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Conclusion
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry-->
+			
+						<a href="methods.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-beaker"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Methods
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+
+			
+			<a href="references.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-book"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				References
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+
+
+			<a href="acknowledgements.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-group"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText" style="font-size:14px;">
+				Acknowledgements
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+						
+			<a href="supplementary_info.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-expand-alt" style="padding-left:7px; width:28px;"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText" style="padding-top:7px;font-size:16px;line-height:100%;">
+				Supplementary Information
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+		
+		</div><!--Bsidebar-->
+		
+		
+		
+<!--MAIN CONTENT OF PAGE-->		
+		<div id="maincontent">
+			<div id="maincontentinner">
+				<div id="mainleftbar">
+				<div class="heading">
+				Introduction
+				</div><!--heading-->
+
+<!--PARAGRAPH WITH HEADER-->	
+
+<p>
+<h1 class="subpink">Nitrogen is an essential ingredient for life</h1>
+Nitrogen is an essential element for life. It is required to synthesise basic building blocks of plants, animals and all the other life on Earth, including nucleotides for DNA and RNA, and amino acids that make up proteins. Relatively little is known about how non-nitrogen-fixing bacteria cope with the fluctuating nitrogen supply in their environment. 
+</p>
+<p>
+<h1 class="subpink">What do we know about N starvation responses in bacteria?</h1>
+Transcriptomics experiments suggest that nitrogen starvation induces a short-term flurry of nutrient transporter expression, followed by a general long-term metabolic shutdown as the bacteria waits for environmental conditions to improve<a class="ref" href="references.html#1"> [1]</a>.
+</p>
+<p>
+Some bacteria, however, such as <i>M.smegmatis</i>, have been shown to continue growing for some time after nitrogen is removed from the medium.  An in-depth understanding of the bacterial response to nitrogen starvation could open up new avenues of research into targets for drugs, in an era of rapidly failing antibiotics, and methods for tackling the related <i>M.tuberculosis</i>, which still claims the lives of millions every year<a class="ref" href="references.html#2"> [2]</a>.
+</p>
+<p>
+<h1 class="subpink">How do other organisms deal with N starvation?</h1>
+A strategy employed by many plants and some animals is to generate nitrogen storage proteins in times of plenty, for usage in times of nitrogen starvation. </p>
+<p>
+Albumins act as nitrogen supplies for growing embryos in birds and insect larvae, and pupae have larval storage proteins in their haemolymph<a class="ref" href="references.html#3"> [3]</a> to act as a nitrogen supply to developing adult tissues. Storage proteins are abundant in the plant kingdom. VSPs have been shown to have phosphatase activity and play a role in storing nitrogen over a single growing season in Soybean<a class="ref" href="references.html#4"> [4]</a>, while seed storage proteins are a way for plants to provide nitrogen to their offspring for usage during germination. 
+</p>
+<p>
+A lot is known about the seed storage proteins, which comprise 10-40% of seeds by mass versus 4% of the protein in the leaves<a class="ref" href="references.html#5"> [5]</a>. They can have very ancient origins and have relatives in all three domains of life <a class="figref" href="#f1">(Figure 1)</a>. 
+</p>
+
+<!--FIGURE BOX-->
+<div class="figureholder" id="f1">
+	<div class="figuretitle">
+		<div class="Titular">Figure 1: 
+		</div><!--Titular-->
+		<div class="TitleText">
+		The Seed Storage Proteins and their Evolutionary History
+		</div><!--TitleText-->
+		<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--figuretitle-->
+	<!--IMAGE-->
+	<img src="images/Figures/sspevolution.png" class="figure" id="ssp" />
+	
+There are three main families of seed storage proteins<a class="ref" href="references.html#6"> [6]</a>. First, the 2S albumins, which are globular with conserved cysteine residues and are found in dicots, for instance the napins of the Brassicaceae. These are related to the cysteine-poor prolamin family, which is found only in the monocots, and are important in agriculture. Examples of prolamins include glutenin in wheat, avenins in oats and zein proteins of maize.  Finally, the globulin family, which contains 11S (legumin-like) and 7S (vicilin-like) sub-families, is characterised by high polymorphism as a result of post-translational modifications; they are found across monocots and dicots. The 11S and 7S globulins share protein properties but not primary protein sequence and are members of the ancient cupin superfamily. Relatives of the cupins have been found across the Archaea, Eubacteria and Eukaryota - fulfilling a very wide range of roles including as isomerases, transcription factors and the non-enzymatic storage proteins in plant seeds<a class="ref" href="references.html#7"> [7]</a>.
+
+		<div class="imagecontrolbox">
+			<span class="imgcontrol" onclick="enlargeImg('ssp','500px')"><i class="icon-plus-sign" style="font-size:16px;"></i> Enlarge</span>
+			<span class="imgcontrol" onclick="reduceImg('ssp','250px')"><i class="icon-minus-sign" style="font-size:16px;"></i> Reduce</span>
+			<a class="imgcontrol" href="images/Figures/sspevolution.png" target="_blank"><i class="icon-external-link-sign" style="font-size:16px;"></i> Supersize</a></span>
+		</div><!--imagecontrolbox-->	
+	<div class="figspacer2">
+	</div><!--figspacer2-->
+</div><!--figrueholder-->
+<!--/FIGURE BOX-->
+
+<p>
+<h1 class="subpink">What are the aims of this investigation?</h1>
+Recent experimental work by the Robertson group has shown that <i>M.smegmatis</i> is able to continue growing after nitrogen is exhausted from the medium. One possible explanation for this result is that the bacterium is somehow storing nitrogen in the form of specialised storage proteins.
+</p>
+<p>
+In this study, we present a Random Forest, machine learning-based approach to discovering nitrogen storage proteins. The model will be trained using known positive and negative samples, using quantitative features derived only from primary protein sequence as the parameters.
+</p><p>
+ We will go on to statistically evaluate the classifier in several ways, and aim to apply it to the task of identifying storage proteins in <i>M.smegmatis</i>. We will compare our results with a purely transcriptomic approach to selecting candidates and discuss briefly any new candidates identified.
+</p>
+
+<!--PARAGRAPH WITH HEADER AND DOTTED LINE-->
+
+<div class="subline"></div><!--subline-->
+
+
+
+
+
+
+
+			</div><!--mainleftbar-->
+			
+		
+			
+			
+			
+			</div><!--maincontentinner--> 
+		</div><!--maincontent-->
+	</div><!--Bcontainer-->
+</div><!--Bbackground-->
+
+	<div class="footerspacer">
+	</div><!--footerspacer-->
+

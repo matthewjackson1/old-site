@@ -1,0 +1,8 @@
+
+languageCode = "en-us"
+title = "Matthew Jackson"
+baseurl = "http://www.matthewajackson.com"
+
+[params]
+  description = "Matthew Jackson's Personal Website"
+  author = "Matthew Jackson"

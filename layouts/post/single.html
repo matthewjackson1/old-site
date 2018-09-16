@@ -1,0 +1,39 @@
+{{ template "partials/top-blog.html" . }}
+
+   <article>
+
+   <div class = "blog-header">
+   	<div class= "article-header-container">
+
+   		
+
+   		<div class= "article-header-lcol">
+   		<h2 class="art-title">{{ .Title }}</h2>
+   		<span class="art-date">{{ .Date.Format "January 2, 2006" }}</span> <span class="author-mobile"> by <span class="author-mobile-name">Matthew </span><img class="very-small-matthew" src="/img/matthew-jackson-circle-small.png" alt="Matthew Jackson" title="Matthew Jackson"></span></br>
+        <span class="art-readtime"><img src="/img/coffee-cup-white.png"> Read time: ~ {{ .ReadingTime }} minute(s) </span>
+ 		 </div>
+
+ 		 <div class = "article-header-rcol">
+      <img src="/img/matthew-jackson-circle-small.png">
+      <span class="author">by Matthew</span>
+  		</div>
+
+ 		
+  		<div style="clear:both;height:10px;"></div>
+      </div>
+  </div>
+
+  <div class="article-content">
+      <p>{{ .Content }}</p>
+      <a href="/blog">
+  <div class="back-to-articles">
+  	<< back to all articles
+  </div>
+</a>
+  </div>
+
+
+
+   </article>
+
+{{ template "partials/bottom.html" . }}

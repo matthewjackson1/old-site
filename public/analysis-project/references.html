@@ -1,0 +1,327 @@
+
+
+<!DOCTYPE HTML>
+<head>
+<!--PAGE TITLE-->
+<title>References - Data Analysis Project - Matthew Jackson</title>
+
+<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+</head>
+
+
+
+<body>
+<script type="text/javascript">
+$(document).ready(function() {
+	var s = $("#Bsidebar");
+	var pos = s.position();
+	var s2 = $("#mainrightbar");
+	var pos2 = s2.position();					   
+	$(window).scroll(function() {
+		var windowpos = $(window).scrollTop();
+		if (windowpos >= pos.top) {
+			s.addClass("stick");
+		} else {
+			s.removeClass("stick");	
+		}
+	
+		var windowpos = $(window).scrollTop();
+		if (windowpos >= pos.top) {
+			s2.addClass("stick2");
+		} else {	
+			s2.removeClass("stick2");
+		}
+	});
+
+});
+</script>
+<script type="text/javascript">
+
+function enlargeImg(ima, height, width) {
+	myImage = document.getElementById(ima);
+    	myImage.style.width = width;
+    	myImage.style.height = height;
+    myImage.style.cssFloat="none";
+    
+    	
+}
+
+function reduceImg(ima, height, width) {
+	myImage = document.getElementById(ima);
+    	myImage.style.width = width;
+    	myImage.style.height = height;
+    	myImage.style.cssFloat="left";
+}
+
+</script>
+
+
+<div id="topbar">
+</div>
+
+<div id="Abackground">
+	<div id="Agradient">
+		<div id="Acontainer">
+			<div id="Aleftholder">
+			<img src="images/nitrlogo.png" id="nitrologo" />
+			</div><!--Aleftholder-->
+			<div id="Arightholder">
+				<div id="Arightholdertop">
+					<div id="Arightholdertopleft">
+					A Random Forest-Based Approach to the Discovery of Nitrogen Storage Proteins in <i>M. smegmatis</i>
+					</div><!--Arightholdertopleft-->
+					<div id="Arightholdertopright">
+						<div id="Aauthorlogo">
+						<i class="icon-user"></i>
+						</div><!--Aauthorlogo-->
+						<div id="Aauthorname">
+						Matthew Jackson
+						</div><!--Aauthorname-->
+						<div id="Adataproj">
+						DATA ANALYSIS PROJECT
+						</div><!--Adataproj-->
+					</div><!--Arightholdertopright-->
+				</div><!--Arightholdertop-->
+				<div id="Arightholderbottom">
+					<img src="images/ribbon.png" />
+				</div><!--Arightholderbottom-->
+			</div><!--Arightholder-->
+	
+		</div><!--Agradient-->
+	</div><!--Acontainer-->
+</div><!--Abackground-->
+
+<div id="Bbackground">
+	<div id="Bcontainer">
+		<div id="Bsidebar">
+			<div id="sidebarspacer">
+			</div><!--sidebarspacer-->
+			
+			
+
+			
+			<!--REAL MENU-->
+			
+			<a href="index.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-home"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Abstract
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+			<a href="summary.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-globe"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Summary
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+			<a href="introduction.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-info-sign"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Introduction
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+			
+			<a href="results_and_discussion.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-bar-chart"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText" style="padding-top:7px;font-size:16px;line-height:100%;">
+				Results and Discussion
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+			
+
+			
+			<a href="conclusion.html"><div class="inactiveEntry">
+				<div class="inactiveIcon" style="padding-left:12px; width:23px;">
+				<i class="icon-lightbulb"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Conclusion
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry-->
+			
+						<a href="methods.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-beaker"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Methods
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+
+			
+
+			<a href="references.html"><div class="activeEntry" id="entry8dkgreen">
+				<div class="activeIcon">
+				<i class="icon-book"></i>
+				</div><!--activeIcon-->
+				<div class="activeText">
+				References
+				</div><!--activeText-->
+				<div class ="activeArrow">
+				</div><!--activeArrow-->
+			</div><!--activeEntry--></a>
+			
+			<a href="acknowledgements.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-group"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText" style="font-size:14px;">
+				Acknowledgements
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+						
+			<a href="supplementary_info.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-expand-alt" style="padding-left:7px; width:28px;"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText" style="padding-top:7px;font-size:16px;line-height:100%;">
+				Supplementary Information
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+		
+		</div><!--Bsidebar-->
+		
+		
+		
+<!--MAIN CONTENT OF PAGE-->		
+		<div id="maincontent">
+			<div id="maincontentinner">
+				<div id="mainleftbar">
+				<div class="heading">
+				References
+				</div><!--heading-->
+
+<!--PARAGRAPH WITH HEADER-->	
+<a name=""></a>
+<p>
+
+<h1 class="subdkgreen">General References</h1>
+<div class="subline"></div><!--subline-->
+</p>
+
+<div class="refholder">
+	<ol id="reflist">
+		<li><span class="refauthors" id="1">da Silva Neto JF, Koide T, Gomes SL, Marques MV. </span>Global gene expression under nitrogen starvation in Xylella fastidiosa: contribution of the sigma54 regulon. BMC
+Microbiol. 2010 Aug 28;10:231. doi: 10.1186/1471-2180-10-231. </li>
+
+		<li><span class="refauthors" id="2">Pilheu JA. </span> Tuberculosis 2000: problems and solutions. Int J Tuberc Lung Dis.
+1998 Sep;2(9):696-703. PubMed PMID: 9755922 </li>
+
+		<li><span class="refauthors" id="3">Kramer SJ, Mundall EC, Law JH. </span> Purification and properties of manducin, an amino acid storage protein of the haemolymph of larval and pupal Manduca sexta. Insect Biochemistry.
+1980; 10(3):279-288. doi: 10.1016/0020-1790(80)90023-2
+ </li>
+		<li><span class="refauthors" id="4">Staswick PE. </span> Storage Proteins of Vegetative Plant Tissues. Annual Review of Plant Physiology and Plant Molecular Biology. 1994 Jun;45:303-322. Review. doi: 10.1146/annurev.pp.45.060194.001511 
+ </li>
+ 
+		<li><span class="refauthors" id="5">Shewry PR and Halford NG.  </span>Cereal seed storage proteins: structures, properties and role in grain utilization. Plant Cell. 1995 July;7(7):945-956. doi: 10.1093/jexbot/53.370.947  </li>
+		
+		<li><span class="refauthors" id="6">Dunwell JM. </span> Cupins: a new superfamily of functionally diverse proteins that
+include germins and plant storage proteins. Biotechnol Genet Eng Rev.
+1998;15:1-32. Review. PubMed PMID: 9573603.</li>
+
+		<li><span class="refauthors" id="7">Dunwell JM, Culham A, Carter CE, Sosa-Aguirre CR, Goodenough PW. </span> Evolution of 
+functional diversity in the cupin superfamily. Trends Biochem Sci. 2001
+Dec;26(12):740-6. PubMed PMID: 11738598.
+</li>
+		<li><span class="refauthors" id="8">Radivojac P, Obradovic Z, Smith DK, Zhu G, Vucetic S, Brown CJ, Lawson JD,
+Dunker AK. </span> Protein flexibility and intrinsic disorder. Protein Sci. 2004
+Jan;13(1):71-80. PubMed PMID: 14691223; PubMed Central PMCID: PMC2286519.
+ </li>
+	</ol>	
+<p>
+<h1 class="subdkgreen">References for software used</h1>
+<div class="subline"></div><!--subline-->
+</p>
+<ol id="softwarelist" start="9">
+
+		<li><span class="refauthors" id="9">Dosztanyi Z, Csizmok V, Tompa P, Simon I. </span> IUPred: web server for the
+prediction of intrinsically unstructured regions of proteins based on estimated
+energy content. Bioinformatics. 2005 Aug 15;21(16):3433-4. Epub 2005 Jun 14. PubMed PMID: 15955779. </li>
+
+		<li><span class="refauthors" id="10">Wootton, JC and Federhen S. </span> Statistics of local complexity in amino acid sequences and sequence databases. Comput. Chem. 1993 17:149-163.</li>
+		
+		<li><span class="refauthors" id="11">Gasteiger E, Hoogland C, Gattiker A, Duvaud S, Wilkins MR, Appel RD, Bairoch A.</span> Protein Identification and Analysis Tools on the ExPASy Server; (In) John M. Walker (ed): The Proteomics Protocols Handbook, Humana Press 2005 pp. 571-607</li>
+		<li><span class="refauthors" id="12">
+		Akashi H, Gojobori T. </span> Metabolic efficiency and amino acid composition in the
+proteomes of Escherichia coli and Bacillus subtilis. Proc Natl Acad Sci U S A.
+2002 Mar 19;99(6):3695-700. PubMed PMID: 11904428; PubMed Central PMCID:
+PMC122586.</li>
+		
+		<li><span class="refauthors" id="13">Altschul SF, Gish W, Miller W, Myers EW, Lipman DJ</span>. Basic local alignment
+search tool. J Mol Biol. 1990 Oct 5;215(3):403-10. PubMed PMID: 2231712.
+		</li>
+		
+		<li><span class="refauthors" id="14"> Breiman L. </span> Random Forests. Machine Learning. 2001 Oct;45(1):5-32
+		
+</li>
+		<li><span class="refauthors" id="15">Xue J and Zhao Y. </span> Random Forests-Based Confidence Annotation Using Novel Features from Confusion Network. Acoustics, Speech and Signal Processing, 2006. ICASSP 2006 Proceedings. 2006 IEEE International Conference, vol.1, 14-19 May 2006. doi: 10.1109/ICASSP.2006.1660229
+</li>
+		<li><span class="refauthors" id="16">Liaw A and Wiener M. </span> Classification and regression by random forest. R News, 2002;2:18-22.
+</li>
+		<li><span class="refauthors" id="17"> Fawcett T. </span> ROC graphs: Notes and practical considerations for data mining researchers. Tech report HPL-2003-4. HP Laboratories, Palo Alto, CA, USA.</li>
+		<li><span class="refauthors" id="">Sing T, Sander O, Beerenwinkel N, Lengauer T. </span> ROCR: visualizing classifier
+performance in R. Bioinformatics. 2005 Oct 15;21(20):3940-1. Epub 2005 Aug 11.
+PubMed PMID: 16096348.</li>
+</ol>
+
+<h1 class="subdkgreen">References for software used in supplementary material</h1>
+<div class="subline"></div><!--subline-->
+</p>
+<ol id="softwarelist" start="19">
+
+		<li><span class="refauthors" id="17"> JR, Gautier C.</span> Hydrophobicity, expressivity and aromaticity are the
+major trends of amino-acid usage in 999 Escherichia coli chromosome-encoded
+genes. Nucleic Acids Res. 1994 Aug 11;22(15):3174-80. PubMed PMID: 8065933;
+PubMed Central PMCID: PMC310293.</li>
+		<li><span class="refauthors" id="17"> K, Reddy BV, Pandit MW.</span> Correlation between stability of a protein 
+and its dipeptide composition: a novel approach for predicting in vivo stability 
+of a protein from its primary sequence. Protein Eng. 1990 Dec;4(2):155-61. PubMed
+PMID: 2075190.</li>
+		<li><span class="refauthors" id="17"> M, Torkkila E, Riikonen P.</span> Accuracy of protein flexibility
+predictions. Proteins. 1994 Jun;19(2):141-9. PubMed PMID: 8090708.</li>
+		<li><span class="refauthors" id="17"> J, Doolittle RF. </span>A simple method for displaying the hydropathic character
+of a protein. J Mol Biol. 1982 May 5;157(1):105-32. PubMed PMID: 7108955.</li>
+		
+		
+		
+	</ol>
+</div><!--refholder-->
+
+
+
+
+
+			
+			
+			
+			
+			</div><!--maincontentinner--> 
+		</div><!--maincontent-->
+	</div><!--Bcontainer-->
+</div><!--Bbackground-->
+
+	<div class="footerspacer">
+	</div><!--footerspacer-->
+

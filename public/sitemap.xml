@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://www.matthewajackson.com/</loc>
+    <lastmod>2015-09-26T20:33:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.matthewajackson.com/post/giving-constructive-feedback-to-designers/</loc>
+    <lastmod>2015-09-26T20:33:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.matthewajackson.com/post/product-management-process-for-startups/</loc>
+    <lastmod>2015-07-05T20:37:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.matthewajackson.com/post/user-experience-for-product-managers/</loc>
+    <lastmod>2015-05-31T20:37:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.matthewajackson.com/post/adaptive-planning-in-software-product-development/</loc>
+    <lastmod>2015-05-26T20:37:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.matthewajackson.com/post/setting-goals-monitoring-performance/</loc>
+    <lastmod>2015-05-25T20:33:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.matthewajackson.com/blog/</loc>
+  </url>
+  
+</urlset>

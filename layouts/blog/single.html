@@ -1,0 +1,16 @@
+{{ template "partials/top-blog.html" . }}
+
+<div class="blog-header">
+	<div class="blog-header-content">
+   <h1 class="blog-h1"><img class="blog-idea" src="/img/blog-idea.png"> Blog Posts</h1>
+	<p class="blog-subtitle">Musings on product management and working in a startup</p>
+	</div>
+</div>
+
+   <article>
+   {{ range .Site.Pages }}   
+      {{ .Render "li" }}    
+   {{ end}} 
+   </article>
+
+{{ template "partials/bottom.html" . }}

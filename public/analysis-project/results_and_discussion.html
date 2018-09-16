@@ -1,0 +1,861 @@
+
+
+<!DOCTYPE HTML>
+<head>
+<!--PAGE TITLE-->
+<title>Results and Discussion - Data Analysis Project - Matthew Jackson</title>
+
+<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<script language="JavaScript" src="js/imageresizer.js"></script>
+</head>
+
+
+
+<body>
+<script type="text/javascript">
+$(document).ready(function() {
+	var s = $("#Bsidebar");
+	var pos = s.position();
+	var s2 = $("#mainrightbar");
+	var pos2 = s2.position();					   
+	$(window).scroll(function() {
+		var windowpos = $(window).scrollTop();
+		if (windowpos >= pos.top) {
+			s.addClass("stick");
+		} else {
+			s.removeClass("stick");	
+		}
+	
+		var windowpos = $(window).scrollTop();
+		if (windowpos >= pos.top) {
+			s2.addClass("stick2");
+		} else {	
+			s2.removeClass("stick2");
+		}
+	});
+
+});
+</script>
+
+
+
+<div id="topbar">
+</div>
+
+<div id="Abackground">
+	<div id="Agradient">
+		<div id="Acontainer">
+			<div id="Aleftholder">
+			<img src="images/nitrlogo.png" id="nitrologo" />
+			</div><!--Aleftholder-->
+			<div id="Arightholder">
+				<div id="Arightholdertop">
+					<div id="Arightholdertopleft">
+					A Random Forest-Based Approach to the Discovery of Nitrogen Storage Proteins in <i>M. smegmatis</i>
+					</div><!--Arightholdertopleft-->
+					<div id="Arightholdertopright">
+						<div id="Aauthorlogo">
+						<i class="icon-user"></i>
+						</div><!--Aauthorlogo-->
+						<div id="Aauthorname">
+						Matthew Jackson
+						</div><!--Aauthorname-->
+						<div id="Adataproj">
+						DATA ANALYSIS PROJECT
+						</div><!--Adataproj-->
+					</div><!--Arightholdertopright-->
+				</div><!--Arightholdertop-->
+				<div id="Arightholderbottom">
+					<img src="images/ribbon.png" />
+				</div><!--Arightholderbottom-->
+			</div><!--Arightholder-->
+	
+		</div><!--Agradient-->
+	</div><!--Acontainer-->
+</div><!--Abackground-->
+
+<div id="Bbackground">
+	<div id="Bcontainer">
+		<div id="Bsidebar">
+			<div id="sidebarspacer">
+			</div><!--sidebarspacer-->
+			
+			
+			
+			<!--REAL MENU-->
+			
+			<a href="index.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-home"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Abstract
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+			<a href="summary.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-globe"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Summary
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+			<a href="introduction.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-info-sign"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Introduction
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+			
+			<a href="results_and_discussion.html"><div class="activeEntry" id="entry2green">
+				<div class="activeIcon">
+				<i class="icon-bar-chart"></i>
+				</div><!--activeIcon-->
+				<div class="activeText" style="padding-top:7px;font-size:16px;line-height:100%;">
+				Results and Discussion
+				</div><!--activeText-->
+				<div class ="activeArrow">
+				</div><!--activeArrow-->
+			</div><!--activeEntry--></a>
+			
+			
+
+			<a href="conclusion.html"><div class="inactiveEntry">
+				<div class="inactiveIcon" style="padding-left:12px; width:23px;">
+				<i class="icon-lightbulb"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Conclusion
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+						<a href="methods.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-beaker"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				Methods
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+			
+	
+			
+			<a href="references.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-book"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText">
+				References
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+
+
+			<a href="acknowledgements.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-group"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText" style="font-size:14px;">
+				Acknowledgements
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+						
+			<a href="supplementary_info.html"><div class="inactiveEntry">
+				<div class="inactiveIcon">
+				<i class="icon-expand-alt" style="padding-left:7px; width:28px;"></i>
+				</div><!--inactiveIcon-->
+				<div class="inactiveText" style="padding-top:7px;font-size:16px;line-height:100%;">
+				Supplementary Information
+				</div><!--inactiveText-->
+			</div><!--inactiveEntry--></a>
+		
+		</div><!--Bsidebar-->
+		
+		
+		
+<!--MAIN CONTENT OF PAGE-->		
+		<div id="maincontent">
+			<div id="maincontentinner">
+				<div id="mainleftbar">
+				<div class="heading">
+				Results and Discussion
+				</div><!--heading-->
+
+<!--PARAGRAPH WITH HEADER-->	
+To build a classifier model, known storage proteins were used as a positive set for a supervised machine learning approach called Random Forest.  Before the model could be built, it was necessary to check for structural bias in the positive set and identify a set of protein features that are significantly different between the positive and negative sets, to be useful as discriminators. 
+<p>
+<h1 class="subgreen" id="1">1. Generation of a protein similarity network for N storage proteins</h1>
+<div class="subline"></div><!--subline-->
+The positive set consisted of 380 manually curated proteins from uniprotKB, which were annotated as storage proteins <a href="http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:0045735" class="weblink" target="_blank">(GO:0045735)</a>. To assess the level of protein sequence similarity in the positive set before running machine learning, a protein similarity network was generated. 
+</p><p>
+Pairwise alignments of each protein against all of the others were performed using BLASTp. Sequences with ID percentage and coverage percentages above particular thresholds were classed as evolutionarily related (see methods). 
+</p>
+<p>
+Six highly-connected clusters, or families, emerged using these parameters, encompassing 230 out of the 380 proteins (~60%) in the positive set. They are visualised in <a class="figref" href="#f2">Figure 2</a>.
+</p>
+
+
+<!--FIGURE BOX-->
+<div class="figureholder" id="f2">
+	<div class="figuretitle">
+		<div class="Titular">Figure 2: 
+		</div><!--Titular-->
+		<div class="TitleText">
+		A protein similarity network generated for the nutrient storage reservoir proteins
+		</div><!--TitleText-->
+		<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--figuretitle-->
+	<!--IMAGE-->
+	<img src="images/Figures/networkgraph.png" class="figure" id="nwg" />
+The protocol identified six clusters including the seed storage protein families described earlier, including the 2S albumin-like and prolamin-like families with 29 and 37 members, respectively. The cupin-superfamily contributes the well-studied 7S (20 proteins) and 11S (38 proteins) globulins, as well as another cupin-like family cluster, which is the largest - with 89 members. The larval storage protein group is the only animal-only family identified and is distinct from the other families; it has only 17 members.
+		<div class="imagecontrolbox">
+			<span class="imgcontrol" onclick="enlargeImg('nwg','500px')"><i class="icon-plus-sign" style="font-size:16px;"></i> Enlarge</span>
+			<span class="imgcontrol" onclick="reduceImg('nwg','250px')"><i class="icon-minus-sign" style="font-size:16px;"></i> Reduce</span>
+			<a class="imgcontrol" href="images/Figures/networkgraph.png" target="_blank"><i class="icon-external-link-sign" style="font-size:16px;"></i> Supersize</a></span>
+		</div><!--imagecontrolbox-->	
+	<div class="figspacer2">
+	</div><!--figspacer2-->
+</div><!--figrueholder-->
+<!--/FIGURE BOX-->
+
+<p>
+Making a network is better than simply accepting the annotations given electronically, but in this case the two are in agreement. </p>
+
+<p>
+We can say from the network that the positive set is not entirely homogeneous and may make for a good general classifier if the family bias is not too strong.
+</p>
+
+<p>
+<h1 class="subgreen" id="2">2. Selection of protein features for classifier creation</h1>
+<div class="subline"></div><!--subline-->
+38 compositional and physicochemical properties were calculated for a positive set of 380 storage proteins and a negative set of 380 non-storage proteins.</p>
+
+<p> The distributions for each set were then compared using Kolmogorov-Smirnov (KS) test and Mann-Whitney U (MWU) tests for each feature. 24 features showed significant adjusted p-values at the significance level of 0.05 for both KS and MWU tests, leading to the rejection of the null hypothesis of no difference between the sets <a class="supref" href="supplementary_info.html"> (Supp. info Table 1)</a>. To reduce noise, only these 24 features were accepted for use in the classifier. </p>
+<p>
+To understand how these features differ, histograms were drawn, and are shown here grouped by useful categories: amino acid composition (split into charged <a class="figref" href="#f3">(Figure 3)</a>,  polar<a class="figref" href="#f4"> (Figure 4)</a> and hydrophobic<a class="figref" href="#f5"> (Figure 5)</a> residues); disorder versus complexity<a class="figref" href="#f6"> (Figure 6)</a> and physicochemical and compositional features<a class="figref" href="#f7"> (Figure 7)</a>. Histograms for the insignificant features are available in  <a class="supref" href="supplementary_info.html#t1"> Supp. info Figure 1</a>.
+</p>
+
+
+<!--FIGURE BOX-->
+<div class="figureholder" id="f3">
+	<div class="figuretitle">
+		<div class="Titular">Figure 3: 
+		</div><!--Titular-->
+		<div class="TitleText">
+		The positive set contained a smaller proportion of charged amino acids than the negative set
+		</div><!--TitleText-->
+		<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--figuretitle-->
+	<!--IMAGE-->
+	<img src="images/Figures/SigHISTchargedAAs.png" class="figure" id="cha" />
+	
+All of the charged amino acids were significantly different in distribution between positive and negative sets. Consistently this change is a reduction in the proportion of these amino acids. In R and H the whole curve seems shifted to a lower mean, whereas in D, K and E we see that the distribution becomes bimodal, with one peak in the same position as the negatives, and the new peak near zero - there may be specific family(s) within the positive set that are depleted in these amino acids through accident of evolution or for functional reasons. 
+
+		<div class="imagecontrolbox">
+			<span class="imgcontrol" onclick="enlargeImg('cha','460px')"><i class="icon-plus-sign" style="font-size:16px;"></i> Enlarge</span>
+			<span class="imgcontrol" onclick="reduceImg('cha','250px')"><i class="icon-minus-sign" style="font-size:16px;"></i> Reduce</span>
+			<a class="imgcontrol" href="images/Figures/SigHISTchargedAAs.png" target="_blank"><i class="icon-external-link-sign" style="font-size:16px;"></i> Supersize</a></span>
+		</div><!--imagecontrolbox-->	
+	<div class="figspacer2">
+	</div><!--figspacer2-->
+</div><!--figrueholder-->
+<!--/FIGURE BOX-->
+
+
+<!--FIGURE BOX-->
+<div class="figureholder" id="f4">
+	<div class="figuretitle">
+		<div class="Titular">Figure 4: 
+		</div><!--Titular-->
+		<div class="TitleText">
+		Nitrogen storage proteins show a general increase in polar amino acids
+		</div><!--TitleText-->
+		<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--figuretitle-->
+	<!--IMAGE-->
+	<img src="images/Figures/SigHISTpolarAAs.png" class="figure" id="pol" />
+	
+There was lower serine, and significantly more glutamine, asparagine and alanine in the storage proteins. Polar residues interact well with water, and could suggest higher solubility than average for the storage proteins. They are also three of the metabolically cheapest amino acids to produce <a class="supref" href="supplementary_info.html"> (Supp. info Table 5)</a>
+
+		<div class="imagecontrolbox">
+			<span class="imgcontrol" onclick="enlargeImg('pol','460px')"><i class="icon-plus-sign" style="font-size:16px;"></i> Enlarge</span>
+			<span class="imgcontrol" onclick="reduceImg('pol','250px')"><i class="icon-minus-sign" style="font-size:16px;"></i> Reduce</span>
+			<a class="imgcontrol" href="images/Figures/SigHISTpolarAAs.png" target="_blank"><i class="icon-external-link-sign" style="font-size:16px;"></i> Supersize</a></span>
+		</div><!--imagecontrolbox-->	
+	<div class="figspacer2">
+	</div><!--figspacer2-->
+</div><!--figrueholder-->
+<!--/FIGURE BOX-->
+
+
+<!--FIGURE BOX-->
+<div class="figureholder" id="f5">
+	<div class="figuretitle">
+		<div class="Titular">Figure 5: 
+		</div><!--Titular-->
+		<div class="TitleText">
+		6/8 hydrophobic amino acids have significantly different distributions in storage proteins
+		</div><!--TitleText-->
+		<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--figuretitle-->
+	<!--IMAGE-->
+	<img src="images/Figures/SigHISTHydrophobic.png" class="figure" id="hyd" />
+
+	
+There was lower tryptophan, methionine, cysteine and glycine and higher proline and phenylalanine.The cysteine depletion may be due to the prolamin family, which is known to have sulfur-poor (cysteine-depleted) subsections and we also see a high cysteine peak which may correspond to the sulfur-rich prolamins<a class="ref" href="references.html#5"> [5]</a>. Tryptophan and histidine are among the most expensive amino acids to synthesise in terms of phosphate bonds  <a class="supref" href="supplementary_info.html"> (Supp. info Table 5)</a> and may not be efficient for use in a storage protein, where we want high nitrogen for as low metabolic cost as possible. Proline is a very cheap amino acid to produce. The higher phenylalanine content is hard to explain, as it is generally one of the more expensive amino acids to produce, and could be attributable to the quirk of one family.
+
+		<div class="imagecontrolbox">
+			<span class="imgcontrol" onclick="enlargeImg('hyd','460px')"><i class="icon-plus-sign" style="font-size:16px;"></i> Enlarge</span>
+			<span class="imgcontrol" onclick="reduceImg('hyd','250px')"><i class="icon-minus-sign" style="font-size:16px;"></i> Reduce</span>
+			<a class="imgcontrol" href="images/Figures/SigHISTHydrophobic.png" target="_blank"><i class="icon-external-link-sign" style="font-size:16px;"></i> Supersize</a></span>
+		</div><!--imagecontrolbox-->	
+	<div class="figspacer2">
+	</div><!--figspacer2-->
+</div><!--figrueholder-->
+<!--/FIGURE BOX-->
+
+
+
+<!--FIGURE BOX-->
+<div class="figureholder" id="f6">
+	<div class="figuretitle">
+		<div class="Titular">Figure 6:
+		</div><!--Titular-->
+		<div class="TitleText">
+		Storage proteins have a higher predicted fraction of low complexity sequence and a lower fraction of disordered residues than controls
+		</div><!--TitleText-->
+		<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--figuretitle-->
+	<!--IMAGE-->
+	<img src="images/Figures/SigHISTCompDis.png" class="figure" id="cod" />
+	
+Higher levels of low-complexity sequence means that the protein is more repetitive in sequence, but the lower levels of disorder suggest this is structured and possibly purposeful repetition. 
+
+		<div class="imagecontrolbox">
+			<span class="imgcontrol" onclick="enlargeImg('cod','460px')"><i class="icon-plus-sign" style="font-size:16px;"></i> Enlarge</span>
+			<span class="imgcontrol" onclick="reduceImg('cod','250px')"><i class="icon-minus-sign" style="font-size:16px;"></i> Reduce</span>
+			<a class="imgcontrol" href="images/Figures/SigHISTCompDis.png" target="_blank"><i class="icon-external-link-sign" style="font-size:16px;"></i> Supersize</a></span>
+		</div><!--imagecontrolbox-->	
+	<div class="figspacer2">
+	</div><!--figspacer2-->
+</div><!--figrueholder-->
+<!--/FIGURE BOX-->
+
+<!--FIGURE BOX-->
+<div class="figureholder" id="f7">
+	<div class="figuretitle">
+		<div class="Titular">Figure 7: 
+		</div><!--Titular-->
+		<div class="TitleText">
+		Physico-chemical and compositional features showing significant differences in storage proteins compared with non-storage proteins 
+		</div><!--TitleText-->
+		<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--figuretitle-->
+	<!--IMAGE-->
+	<img src="images/Figures/SigHISTMetabolicOther.png" class="figure" id="met" />
+	
+Storage proteins are significantly shorter than average, with correspondingly lower molecular weight. They have positively shifted hydrophobicity levels, perhaps caused by the increased proline and phenylalanine content. In addition they have lower average P-bond cost per residue, suggesting these proteins are energetically cheaper to make than other proteins. The lower N content is surprising considering these are nitrogen storage proteins, but this may due in part to the depletion in R, which has 4 nitrogens per residue, while the rest have one or two. The lower flexibility index average may be a result of the decrease in disordered residues, as these two traits have been found to be correlated<a class="ref" href="references.html#8"> [8]</a>.
+
+
+		<div class="imagecontrolbox">
+			<span class="imgcontrol" onclick="enlargeImg('met','460px')"><i class="icon-plus-sign" style="font-size:16px;"></i> Enlarge</span>
+			<span class="imgcontrol" onclick="reduceImg('met','250px')"><i class="icon-minus-sign" style="font-size:16px;"></i> Reduce</span>
+			<a class="imgcontrol" href="images/Figures/sspevolution.png" target="_blank"><i class="icon-external-link-sign" style="font-size:16px;"></i> Supersize</a></span>
+		</div><!--imagecontrolbox-->	
+	<div class="figspacer2">
+	</div><!--figspacer2-->
+</div><!--figrueholder-->
+<!--/FIGURE BOX-->
+
+
+<p>
+<h1 class="subgreen" id="3">3. Principal Component Analysis of the significant protein features </h1>
+<div class="subline"></div><!--subline-->
+Principal component analysis is a dimensionality reduction technique to highlight the largest axes of variation in a dataset. PCA was carried out to discover if there is a marked distinction between the positive and negative set caused by a simple set of features. The resulting plot did not suggest such a marked separation<a class="figref" href="#f8"> (Figure 8)</a>, with the first two principal components accounting for only 37.8% of the variation  <a class="supref" href="supplementary_info.html#f2"> (Supp. info Figure 2)</a>.</p> <p> If there is a difference between the groups that will allow us to perform classification, it is the combined effect of many factors. 
+</p>
+
+
+<!--FIGURE BOX-->
+<div class="figureholder" id="f8">
+	<div class="figuretitle">
+		<div class="Titular">Figure 8: 
+		</div><!--Titular-->
+		<div class="TitleText">
+		A biplot plotting the first two components of the PCA of Positive Set and Negative Set protein features and the directions of variation for each feature.
+		</div><!--TitleText-->
+		<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--figuretitle-->
+	<!--IMAGE-->
+	<img src="images/Figures/PCAposneg.png" class="figure" id="pca1" />
+	
+Individual points represent individual proteins, and their position represents their properties with respect to the variation in the protein features (arrows). The longer arrows denote the factors with the greatest degree of variation between the positive and negative set, and letters stand for amino acid proportion features. On this plot, the abundance of long arrows reinforces the idea that many factors help define the storage proteins as different to non-storage. (see supersize for the clearest view) 
+
+		<div class="imagecontrolbox">
+			<span class="imgcontrol" onclick="enlargeImg('pca1','460px')"><i class="icon-plus-sign" style="font-size:16px;"></i> Enlarge</span>
+			<span class="imgcontrol" onclick="reduceImg('pca1','250px')"><i class="icon-minus-sign" style="font-size:16px;"></i> Reduce</span>
+			<a class="imgcontrol" href="images/Figures/PCAposnegBIG.png" target="_blank"><i class="icon-external-link-sign" style="font-size:16px;"></i> Supersize</a></span>
+		</div><!--imagecontrolbox-->	
+	<div class="figspacer2">
+	</div><!--figspacer2-->
+</div><!--figrueholder-->
+<!--/FIGURE BOX-->
+
+<p>
+Examination of the location on the PCA biplot of the protein families (discovered in the positive set from the similarity network) suggests that at a very small scale the families are quite distinct<a class="figref" href="#f9"> (Figure 9)</a>. </p>
+
+<p>If the substructure is strong enough, it could reduce the usefulness of the classifier, as it may only become trained at identifying the particular families rather than general properties of storage proteins. A leave-one-family-out strategy will be employed to assess this.
+</p>
+
+
+<!--FIGURE BOX-->
+<div class="figureholder" id="f9">
+	<div class="figuretitle">
+		<div class="Titular">Figure 9: 
+		</div><!--Titular-->
+		<div class="TitleText">
+		A biplot plotting the first two components of the PCA of Positive Set family protein features and the directions of variation for each feature.
+		</div><!--TitleText-->
+		<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--figuretitle-->
+	<!--IMAGE-->
+	<img src="images/Figures/PCAfamilies.png" class="figure" id="pca2" />
+	
+Individual points represent individual proteins, and their position represents their properties with respect to the variation of the protein features (arrows). Please see the supersize version for the clearest view.
+
+		<div class="imagecontrolbox">
+			<span class="imgcontrol" onclick="enlargeImg('pca2','500px')"><i class="icon-plus-sign" style="font-size:16px;"></i> Enlarge</span>
+			<span class="imgcontrol" onclick="reduceImg('pca2','250px')"><i class="icon-minus-sign" style="font-size:16px;"></i> Reduce</span>
+			<a class="imgcontrol" href="images/Figures/PCAfamiliesBIG.png" target="_blank"><i class="icon-external-link-sign" style="font-size:16px;"></i> Supersize</a></span>
+		</div><!--imagecontrolbox-->	
+	<div class="figspacer2">
+	</div><!--figspacer2-->
+</div><!--figrueholder-->
+<!--/FIGURE BOX-->
+
+<p>
+<h1 class="subgreen" id="4">4. Prediction of storage proteins using a Random Forest classifier</h1>
+<div class="subline"></div><!--subline-->
+
+A RandomForest model was trained on a dataset containing data for 24 sequence-derived properties for 190 known storage proteins and 190 non-storage proteins. The model was then tested on a set with another 190 positive set proteins and 190 negative set proteins. 
+</p>
+<p>
+The out-of-bag (OOB) error is an unbiased running estimate of the classification error as decision trees are added to the random forest, and is also used to calculate estimates of variable importance as explained in the <span class="code">randomForest</span> package <a href="http://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm#ooberr" class="weblink" target="_blank">website</a>. 
+</p><p>
+The final OOB error for this model was approximately 12+/-2%, or around 88% accuracy for the training set. <p>The Receiver Operating Characteristic (ROC) curve is a plot of true positive (TP) rate against false positive (FP) rate. The area under the ROC curve (AUC) measures the discrimination, which is the ability of the model to correctly classify storage proteins vs non-storage proteins.The average ROC area under the curve from 5 runs was 0.954, meaning the classifier is excellent at discriminating storage and non-storage proteins; the excellent precision-recall curve also supports this idea<a class="figref" href="#f10"> (Figure 10)</a>.
+</p>
+
+<!--FIGURE BOX-->
+<div class="figureholder" id="f10">
+	<div class="figuretitle">
+		<div class="Titular">Figure 10: 
+		</div><!--Titular-->
+		<div class="TitleText">
+		Random Forest classifier performance graphs - ROC and Precision-Recall curves suggest excellent performance.
+		</div><!--TitleText-->
+		<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--figuretitle-->
+	<!--IMAGE-->
+	<img src="images/Figures/WholeROCPR.png" style="width:250px; margin-left:20px;" class="figure" id="wrp" />
+	<b>A)</b> The ROC curve is excellent, a perfect classifier would give 0 false positives at a true positive rate of 1 and this model produces something not too far away from it. <p><b>B)</b> The Precision-Recall curve is similarly promising, in this case a perfect model would give a recall (true positive) rate of 1 for a precision of 1. Precision represents the rate of a positive being a true positive and is computed as TP/(TP+FP).</p>
+
+		<div class="imagecontrolbox">
+			<span class="imgcontrol" onclick="enlargeImg('wrp','450px')"><i class="icon-plus-sign" style="font-size:16px;"></i> Enlarge</span>
+			<span class="imgcontrol" onclick="reduceImg('wrp','250px')"><i class="icon-minus-sign" style="font-size:16px;"></i> Reduce</span>
+			<a class="imgcontrol" href="images/Figures/wholeROCPR.png" target="_blank"><i class="icon-external-link-sign" style="font-size:16px;"></i> Supersize</a></span>
+		</div><!--imagecontrolbox-->	
+	<div class="figspacer2">
+	</div><!--figspacer2-->
+</div><!--figrueholder-->
+<!--/FIGURE BOX-->
+
+<p>
+The most important features for classification (calculated from the drop in accuracy when each feature is excluded from the model) are glutamine and arginine content, the average nitrogen content of the amino acids and the length and weight of the proteins<a class="figref" href="#f1"> (Figure 11)</a>. However, we do not see a steep decline in importance, rather a gradual one, suggesting the storage protein group is defined by the effect of many features together.
+</p>
+
+<!--FIGURE BOX-->
+<div class="figureholder" id="f11">
+	<div class="figuretitle">
+		<div class="Titular">Figure 11: 
+		</div><!--Titular-->
+		<div class="TitleText">
+		A chart to show the Most important Features for the Classifier as determined by the Random Forest model
+		</div><!--TitleText-->
+		<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--figuretitle-->
+	<!--IMAGE-->
+	<img src="images/Figures/DecreaseinAccuracy.png" class="figure" id="dec" />
+	
+The y axis shows the model variables (protein features), with letters representing their respective amino acid proportions.The x-axis bars show their importance as determined by randomForest software, and ordered by ascending importance. The longest bars represent the most important variables of the model, as they cause the greatest decreases in accuracy when removed during the OOB error calculation phase. 
+
+		<div class="imagecontrolbox">
+			<span class="imgcontrol" onclick="enlargeImg('dec','500px')"><i class="icon-plus-sign" style="font-size:16px;"></i> Enlarge</span>
+			<span class="imgcontrol" onclick="reduceImg('dec','250px')"><i class="icon-minus-sign" style="font-size:16px;"></i> Reduce</span>
+			<a class="imgcontrol" href="images/Figures/DecreaseinAccuracy.png" target="_blank"><i class="icon-external-link-sign" style="font-size:16px;"></i> Supersize</a></span>
+		</div><!--imagecontrolbox-->	
+	<div class="figspacer2">
+	</div><!--figspacer2-->
+</div><!--figrueholder-->
+<!--/FIGURE BOX-->
+<p>
+<h1 class="subgreen" id="4b"> b) Leave-one-out: evaluating the impact of family structure on classifier performance</h1>
+Given the similarity network and PCA results, which show sub-structure within the positive set of storage proteins, it is prudent to test for any classifier bias due to the trained families using a leave-one-out approach. Each protein family was removed in turn from the training set and was used in the test set. The classifier's performance was compared with that of the classifier, which was trained on all the families.
+</p>
+<p>
+The average AUCs differ by less than 5% between the families and the full model, and the OOB error bars overlap<a class="figref" href="#f12"> (Figure 12)</a>. 
+</p>
+
+</p>
+<!--FIGURE BOX-->
+<div class="figureholder" id="f12">
+	<div class="figuretitle">
+		<div class="Titular">Figure 12: 
+		</div><!--Titular-->
+		<div class="TitleText">
+		OOB error rates for the full Random Forest model and the leave-one-family-out models
+		</div><!--TitleText-->
+		<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--figuretitle-->
+	<!--IMAGE-->
+	<img src="images/Figures/OOBerror3.png" class="figure" id="oob" />
+	
+The y-axis shows the OOB error rate for each model, with error bars superimposed in grey. The x-axis shows the models, the first of which was the whole model, trained on all the families. The rest were trained on all but the respective family, labelled on the x-axis, which was used as the part of the test set for the model.
+
+		<div class="imagecontrolbox">
+			<span class="imgcontrol" onclick="enlargeImg('oob','500px')"><i class="icon-plus-sign" style="font-size:16px;"></i> Enlarge</span>
+			<span class="imgcontrol" onclick="reduceImg('oob','250px')"><i class="icon-minus-sign" style="font-size:16px;"></i> Reduce</span>
+			<a class="imgcontrol" href="images/Figures/OOBerror3.png" target="_blank"><i class="icon-external-link-sign" style="font-size:16px;"></i> Supersize</a></span>
+		</div><!--imagecontrolbox-->	
+	<div class="figspacer2">
+	</div><!--figspacer2-->
+</div><!--figrueholder-->
+<!--/FIGURE BOX-->
+
+<p>
+The ROC curves and the precision recall curves of the leave-one-out models showed little difference to the full model <a class="figref" href="#f13"> (Figures 13 and 14)</a>, apart from the larval storage group, which showed strongly reduced precision-recall. This could in part be due to the low number of members in this family (17) meaning randomly worse results from this run, or as a result of the very distinct evolutionary heritage of the group.
+</p>
+
+<!--FIGURE BOX-->
+<div class="figureholder" id="f13">
+	<div class="figuretitle">
+		<div class="Titular">Figure 13: 
+		</div><!--Titular-->
+		<div class="TitleText">
+		Comparison of ROC curves for the full random forest model and the leave-one-family-out models
+		</div><!--TitleText-->
+		<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--figuretitle-->
+	<!--IMAGE-->
+	<img src="images/Figures/ComparisonROCsmall.png" class="figure" id="cro" />
+	
+The ROC curves for all of the leave-one-out models are excellent, and in some cases appears to surpass the whole model. This may be due to the absence of the larval-storage group from the test sets, which appear to be the least accurately predicted by the classifier and the most dissimilar family of storage proteins evolutionarily. 
+
+		<div class="imagecontrolbox">
+			<span class="imgcontrol" onclick="enlargeImg('cro','500px')"><i class="icon-plus-sign" style="font-size:16px;"></i> Enlarge</span>
+			<span class="imgcontrol" onclick="reduceImg('cro','250px')"><i class="icon-minus-sign" style="font-size:16px;"></i> Reduce</span>
+			<a class="imgcontrol" href="images/Figures/ComparisonROCbig.png" target="_blank"><i class="icon-external-link-sign" style="font-size:16px;"></i> Supersize</a></span>
+		</div><!--imagecontrolbox-->	
+	<div class="figspacer2">
+	</div><!--figspacer2-->
+</div><!--figrueholder-->
+<!--/FIGURE BOX-->
+
+
+<!--FIGURE BOX-->
+<div class="figureholder" id="f14">
+	<div class="figuretitle">
+		<div class="Titular">Figure 14: 
+		</div><!--Titular-->
+		<div class="TitleText">
+		Comparison of Precision-Recall curves for the full random forest model and the leave-one-family out models
+		</div><!--TitleText-->
+		<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--figuretitle-->
+	<!--IMAGE-->
+	<img src="images/Figures/ComparisonPRsmall.png" class="figure" id="cpr" />
+	
+The Precision-Recall curves are relatively weaker for the leave-one-family out models than the full model, the worst again being the larval-storage-like proteins. The curves remain very strong, however, in absolute terms.
+
+		<div class="imagecontrolbox">
+			<span class="imgcontrol" onclick="enlargeImg('cpr','500px')"><i class="icon-plus-sign" style="font-size:16px;"></i> Enlarge</span>
+			<span class="imgcontrol" onclick="reduceImg('cpr','250px')"><i class="icon-minus-sign" style="font-size:16px;"></i> Reduce</span>
+			<a class="imgcontrol" href="images/Figures/ComparisonPRbig.png" target="_blank"><i class="icon-external-link-sign" style="font-size:16px;"></i> Supersize</a></span>
+		</div><!--imagecontrolbox-->	
+	<div class="figspacer2">
+	</div><!--figspacer2-->
+</div><!--figrueholder-->
+<!--/FIGURE BOX-->
+
+<p>
+Overall the classifier model is robust to family substructure, remaining above 90% AUC and hovering around 11% OOB error. From these results, its effectiveness can be argued not to depend simply on having many highly similar proteins in the training set. 
+</p>
+
+
+<h1 class="subgreen" id="4c"> c) Predicting storage proteins in unseen organisms using the classifier</h1>
+<p>
+The classifier was applied to unseen vertebrate (<i>O.anatinus</i>, 18162 sequences) and plant (<i>M.acuminata</i>, 36520 sequences) proteomes from the Ensembl database. At the default p-value cutoff for the classifier of 0.5, several thousand proteins were predicted as positives for each. Although the model's error rate is low (~10%),  this will still produce thousands of false positives when applied to large proteomes.</p>
+
+<p> We expect a small number of true positive storage proteins, so false positives are very undesirable. There is a tradeoff between the precision of our predictions and how many true positives we can identify, as seen in the Precision-Recall curves, and these parameters also vary depending on the p-value cutoff (deciding whether a test protein is classified as positive or negative set), as illustrated by <a class="figref" href="#f15">Figure 15</a>.
+</P>
+
+<!--FIGURE BOX-->
+<div class="figureholder" id="f15">
+	<div class="figuretitle">
+		<div class="Titular">Figure 15: 
+		</div><!--Titular-->
+		<div class="TitleText">
+		Precision and recall vary with the classifier p-value cutoff
+		</div><!--TitleText-->
+		<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--figuretitle-->
+	<!--IMAGE-->
+	<img src="images/Figures/PRagainstCutoffs.png" class="figure" id="cut" />
+	
+   This graph shows how as we increase the p-value cutoff, we reduce the number of true positives that we detect, but increase the precision (TP/(TP+FP)) of the ones we do detect.
+
+		<div class="imagecontrolbox">
+			<span class="imgcontrol" onclick="enlargeImg('cut','500px')"><i class="icon-plus-sign" style="font-size:16px;"></i> Enlarge</span>
+			<span class="imgcontrol" onclick="reduceImg('cut','250px')"><i class="icon-minus-sign" style="font-size:16px;"></i> Reduce</span>
+			<a class="imgcontrol" href="images/Figures/PRagainstCutoffsBIG.png" target="_blank"><i class="icon-external-link-sign" style="font-size:16px;"></i> Supersize</a></span>
+		</div><!--imagecontrolbox-->	
+	<div class="figspacer2">
+	</div><!--figspacer2-->
+</div><!--figrueholder-->
+<!--/FIGURE BOX-->
+<p>
+For a very high precision of 98% we used a cutoff of 0.7522, giving an associated recall (TPR) of 66%. 27 proteins in <i>O.anatinus</i>and 101 proteins in <i>M.acuminata</i> passed these thresholds, and we know that for each of these sequences there is a nominal 2% chance of it being a false positive. The top 20 of these hits are given in <a class="supref" href="supplementary_info.html">Supp. info Tables 7, 8</a>; here are reproduced the top 5 of each with attempted functional annotations from blast searches<a class="tabref" href="#t1"> (Table 1)</a>.   
+</p>
+	
+	
+<div class="tableholder" id="t1">
+	<div class="tableheaderholder">
+		<div class="tableno">
+		Table 1:
+		</div><!--tableno-->
+		<div class="tabletitle">
+		Results of running the classifier on the banana <i>(M.acuminata)</i> and platypus<i> (<i>O.anatinus</i>)</i> proteomes (top 5 hits)
+		
+		</div><!--tabletitle-->
+					<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--tableheaderholder-->
+
+	<div class="tableproper">
+		
+		<table class="general_tab" id="resulttable">
+			<tr>
+			<th>Organism</th>
+		<th>Gene ID</th>
+		<th>UniprotKB Annotation</th>
+		<th>BLAST suggestions</th>
+	</tr>
+	
+	
+	
+	
+	<tr>
+		<td rowspan=5><i>M.acuminata</i></td>
+		<td><a href="http://www.uniprot.org/uniprot/M0SZM3" target="_blank">GSMUA_Achr5P18440_001</a></td>
+		<td rowspan=5>All uncharacterised proteins, electronically assigned as having nutrient reservoir activity, secreted into the apoplast. Likely seed storage proteins.</td>
+		<td rowspan=3>Germin-like protein (part of cupin-superfamily)</td>
+	</tr>
+	<tr>
+		<td><a href="http://www.uniprot.org/uniprot/M0U517">GSMUA_Achr4P01070_001</a></td>
+		
+		
+	</tr>
+		<tr>
+		<td><a href="http://www.uniprot.org/uniprot/M0SK24" target="_blank">GSMUA_Achr8P18750_001</a></td>
+		
+	</tr>
+		<tr>
+		<td><a href="http://www.uniprot.org/uniprot/M0TRM8" target="_blank">GSMUA_Achr8P18750_001</a></td>
+		<td rowspan=2>Uncharacterised</td>
+	</tr>
+		<tr>
+		<td><a href="http://www.uniprot.org/uniprot/M0TVT9" target="_blank">GSMUA_Achr5P26690_001</a></td>
+		
+	</tr>
+		<tr>
+		<td rowspan=5><i>O.anatinus</i></td>
+		<td><a href="http://www.uniprot.org/uniprot/F7CYU3" target="_blank">ENSOANP00000026802</a></td>
+		<td>Fragment, uncharacterised</td>
+		<td>Copine-3</td>
+	</tr>
+		<tr>
+		<td><a href="http://www.uniprot.org/uniprot/K7EB86" target="_blank">ENSOANP00000030793</a></td>
+		<td>Uncharacterised</td>
+		<td>Uncharacterised</td>
+	</tr>
+		<tr>
+		<td><a href="http://www.uniprot.org/uniprot/F6SAU8" target="_blank">ENSOANP00000020379</a></td>
+		<td>Uncharacterised, GO: amino acid import and neuron development</td>
+		<td>Glutamate-aspartate transporter</td>
+	</tr>
+		<tr>
+		<td><a href="http://www.uniprot.org/uniprot/K7EGN4" target="_blank">ENSOANP00000032691</a></td>
+		<td>Uncharacterised</td>
+		<td>Part of integrin signalling pathway</td>
+	</tr>
+		<tr>
+		<td><a href="http://www.uniprot.org/uniprot/K7EGF5" target="_blank">ENSOANP00000032612</a></td>
+		<td>Uncharacterised, GO:membrane-bound sodium:dicarboxylate symporter activity</td>
+		<td>Neutral amino acid transport</td>
+	</tr>
+
+</table>
+		
+		</div><!--tableproper-->
+		<div class="tablecaption">
+		(Click gene IDs to go to UniProtKB entry). If any blast hits were uncharacterised their name was written in the BLAST annotation column.
+		</div><!--tablecaption-->
+	</div><!--tableholder-->
+<p>These genomes are not well annotated, all of these proteins had no annotated functions, but BLAST searches revealed 3 of the <i>M.acuminata</i> proteins were electronically annotated as 'nutrient storage reservoir' proteins, which was the GO term the classifier was trained on (using reviewed, not electronically annotated, sequences). This suggests the classifier is working well. For <i>O.anatinus</i>, we do not see proteins that fit obviously with any of the families identified in the positive set, but the annotations that exist are only electronic and are quite vague. 
+
+
+<h1 class="subgreen" id="4d"> d) Using the classifier to predict storage proteins in <i>M.smegmatis</i></h1>
+<p>
+Recent experimental work by the Robertson group has shown that <i>M.smegmatis</i> is able to continue growing after nitrogen is exhausted from the medium. One possible explanation for this result is that the bacterium is somehow storing nitrogen in the form of specialised storage proteins. To investigate this possibility the Robertson group has performed transcriptomic experiments, measuring gene expression before and after N starvation. </p>
+
+<p>From this transcriptomic data, the Pinney group has identified a set of candidate genes which are highly expressed before nitrogen starvation and strongly suppressed after starvation, as would be expected for nitrogen storage proteins, if they exist. </p>
+<p>
+If any proteins are predicted as storage proteins by both the transcriptomics approach and the independent random forest classifier approach, it would lend strong support to their hypothesised roles in nitrogen storage. At the default cut-off of 0.5, which gives 94% precision, 2 of the 4 main candidates identified by transcriptomics were marked as positives by the classifier. <a href="http://www.uniprot.org/uniprot/A0QTX5" class="weblink" target="_blank">MSMEG_1999</a> and <a href="http://www.uniprot.org/uniprot/A0QQU4" class="weblink" target="_blank">MSMEG_0879</a> both encode short, uncharacterised proteins and certainly warrant further investigation.</p> <p>The transcriptomic approach also identified 10 ribosomal proteins, which are thought to be false positives (due to their cellular localisation); 9 of these 10 were identified as negatives by the classifier, highlighting the relative immunity of the random forest approach to these sorts of false positives (These candidates are viewable in <a class="supref" href="supplementary_info.html">Supp. info Table 6b)</a>).
+</p>
+<p>
+As well as these proteins, 914 more were identified as positives at the default cutoff, most of these are likely to be false positives, but shown in <a class="tabref" href="#t2">Table 2</a> are the 7 proteins identified at the 98% precision level by the model. 5 of the 7 have functions assigned electronically, while <a href="http://www.uniprot.org/uniprot/A0QRJ2" class="weblink" target="_blank">MSMEG_1136</a> is uncharacterised, making it a very interesting candidate, as well as the 34kDa antigen <a href="http://www.uniprot.org/uniprot/A0R3L7" class="weblink" target="_blank">MSMEG_5518</a>, which also has no annotated function.  
+</p>
+
+
+
+
+<div class="tableholder" id="t2">
+	<div class="tableheaderholder">
+		<div class="tableno">
+		Table 2:
+		</div><!--tableno-->
+		<div class="tabletitle">
+		Results of running the classifier on the <i>M.smegmatis</i> proteome at 98% precision
+		</div><!--tabletitle-->
+					<div class="figspacer1">
+		</div><!--figspacer1-->
+	</div><!--tableheaderholder-->
+
+	<div class="tableproper">
+		
+		<table class="general_tab" id="resulttable">
+			<tr>
+		<th width="15%">Gene ID</th>
+		<th width="30%">UniprotKB Annotation</th>
+	
+
+	</tr>
+	<tr>
+		<td><a href="http://www.uniprot.org/uniprot/A0R5Y1" target="_blank">MSMEG_6354</a></td>
+		<td>Cutinase family serine esterase</td>
+		
+	</tr>
+		<tr>
+		<td><a href="http://www.uniprot.org/uniprot/A0QTZ2" target="_blank">MSMEG_2016</a></td>
+		<td>Periplasmic Molybdate ABC transporter</td>
+		
+	</tr>
+		<tr>
+		<td><a href="http://www.uniprot.org/uniprot/A0QXZ5" target="_blank">MSMEG_3479</a></td>
+		<td>Probable thiol peroxidase</td>
+		
+	</tr>
+		<tr>
+		<td><a href="http://www.uniprot.org/uniprot/A0QRJ2" target="_blank">MSMEG_1136</a></td>
+		<td>Uncharacterised protein</td>
+		
+	</tr>
+		<tr>
+		<td><a href="http://www.uniprot.org/uniprot/A0R0B7" target="_blank">MSMEG_4430</a></td>
+		<td>Short chain dehydrogenase</td>
+		
+		
+			</tr>
+		<tr>
+		<td><a href="http://www.uniprot.org/uniprot/A0R3L7" target="_blank">MSMEG_5518</a></td>
+		<td>5-dehydro-4-deoxyglucarate dehydratase</td>
+	
+	</tr>
+	</tr>
+		<tr>
+		<td><a href="http://www.uniprot.org/uniprot/A0R5B6">MSMEG_6133</a></td>
+		<td>34kDa antigen</td>
+	
+
+	
+
+</table>
+	
+		</div><!--tableproper-->
+		<div class="tablecaption">
+		7 proteins were identified above the 98% precision level, corresponding to positive p-scores of >0.7522. Proteins identified at the 97% level are given in <a class="supref" href="supplementary_info.html">Supp. info Table 6</a>. (Click gene IDs to go to UniProtKB entry).The top BLAST hits revealed nothing more than is shown in the annotations.
+		</div><!--tablecaption-->
+	</div><!--tableholder-->
+<BR />
+<div class="subline"></div>
+
+
+
+
+
+
+			</div><!--mainleftbar-->
+			
+			<!--NAVIGATION MENU RIGHT-->
+			<div id="mainrightbar">
+			<span class="NavBarTitle"><i class="icon-location-arrow" style="font-size:16px;"></i> NAVIGATION</span>
+			<ol class="navbarlist" id="resultsol">
+			<li><a href="#1">Protein similarity network</a></li>
+			<li><a href="#2">Protein feature selection</a></li>
+			<li><a href="#3">Principal component analysis</a></li>
+			<li><a href="#4">Prediction using random forests</a></li>
+				<ol type="a" start="2">
+					<li><a href="#4b">Leave-one-out evaluation</a></li>
+					<li><a href="#4c">Application to unseen organisms</a></li>
+					<li><a href="#4d">Application to <i>M.smegmatis</i></a></li>
+				</ol>
+			</ol>
+			</div><!--mainrightbar-->
+			<!--END OF NAV MENU-->
+			
+			
+			
+			
+			</div><!--maincontentinner--> 
+		</div><!--maincontent-->
+	</div><!--Bcontainer-->
+</div><!--Bbackground-->
+
+	<div class="footerspacer">
+	</div><!--footerspacer-->
+
